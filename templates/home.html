@@ -43,6 +43,7 @@
     </style>
 </head>
 <body>
+    {% include "nav.html" %}
    <div id  ="container"> 
         <h1 class = "text-center">{{company_name}} Carriers</h1>
         <img class = "img-fluid" id = "banner" src = "static/banner.jpg" width="400">
@@ -75,8 +76,7 @@
 
             </div>
         </div>
-        <button>Contact Us</button>
-        <p>Copyright 2025,Carrier</p>
     </div>
+    {% include "footer.html" %}
 </body>
 </html>
